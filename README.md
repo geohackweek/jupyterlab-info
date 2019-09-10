@@ -13,17 +13,17 @@ The Jupyter project has instructions for capturing the full Python environment f
 
 Run the following code to re-create the environment locally:
 
-1) Install miniconda if you don't have it already:
+**1) Install miniconda if you don't have it already**
 ```
 https://docs.conda.io/en/latest/miniconda.html
 ```
 
-2) Create a conda environment
+**2) Create a conda environment**
 ```
 conda env create -f environment.yml
 ```
 
-3) Activate the environment and install jupyter lab extensions
+**3) Activate the environment and install JupyterLab extensions**
 ```
 conda activate geohackweek2019
 jupyter labextension install @jupyter-widgets/jupyterlab-manager \
@@ -34,7 +34,7 @@ jupyter labextension install @jupyter-widgets/jupyterlab-manager \
 				dask-labextension
 ```
 
-4) Launch Jupyter Lab
+**4) Launch JupyterLab**
 ```
 jupyter lab
 ```
