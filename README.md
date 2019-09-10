@@ -45,7 +45,7 @@ jupyter lab
 
 There are some big advantages to using a common JupyterHub. Everyone has access to ephemeral computational resources, so you are not limited by your laptop CPU and RAM. We can also easily share large amounts of data. For example, everyone on the hub has read-write access to `s3://geohackweek2019`. 
 
-##### I'm getting errors trying to install the environment on a mac**
+##### I'm getting errors trying to install the environment on a mac
 
 There are sometimes incompatibilities with conda packages on linux versus osx. 
 
@@ -56,6 +56,8 @@ ResolvePackageNotFound:
   - libstdcxx-ng=7.3.0
   - libgcc-ng=7.3.0
 ```
+
+Solution: Comment out those lines in `environment.yml` with the `#` character.
 
 ##### Can I do this with Docker
 
