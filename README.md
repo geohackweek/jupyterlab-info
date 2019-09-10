@@ -18,7 +18,7 @@ Run the following code to re-create the environment locally:
 https://docs.conda.io/en/latest/miniconda.html
 ```
 
-2) Create a conda environment (**NOTE:** on a Mac replace `environment.yml` with `environment-mac.yml` in the command below)
+2) Create a conda environment
 ```
 conda env create -f environment.yml
 ```
@@ -39,7 +39,7 @@ jupyter labextension install @jupyter-widgets/jupyterlab-manager \
 jupyter lab
 ```
 
-### FAQs
+### Frequently Asked Questions (FAQs)
 
 ##### Why run on AWS? 
 
@@ -59,7 +59,7 @@ ResolvePackageNotFound:
 
 ##### Can I do this with Docker
 
-Instead of installing miniconda and creating a new conda environment, you can use a Docker image that has everything pre-installed. This is helpful for running the hub in a different Cloud-provider region. See https://cloud.docker.com/u/scottyhq/repository/docker/scottyhq/geohackweek2019
+Instead of installing miniconda and creating a new conda environment, you can use a Docker image that has everything pre-installed. This is helpful for running the hub in a different Cloud provider region. See https://cloud.docker.com/u/scottyhq/repository/docker/scottyhq/geohackweek2019
 
 `docker pull scottyhq/geohackweek2019:2019-08-01`
 
