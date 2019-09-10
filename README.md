@@ -27,11 +27,11 @@ conda env create -f environment.yml
 ```
 conda activate geohackweek2019
 jupyter labextension install @jupyter-widgets/jupyterlab-manager \
-			                       @jupyterlab/geojson-extension \
-                             @pyviz/jupyterlab_pyviz \
-			                       jupyter-matplotlib \
-                             jupyter-leaflet \
-                             dask-labextension
+				@jupyterlab/geojson-extension \
+				@pyviz/jupyterlab_pyviz \
+				jupyter-matplotlib \
+				jupyter-leaflet \
+				dask-labextension
 ```
 
 4) Launch Jupyter Lab
@@ -41,9 +41,11 @@ jupyter lab
 
 ### FAQs
 
-**Why run on AWS?** There are some big advantages to using a common JupyterHub. Everyone has access to ephemeral computational resources, so you are not limited by your laptop CPU and RAM. We can also easily share large amounts of data. For example, everyone on the hub has read-write access to `s3://geohackweek2019`. 
+##### Why run on AWS? 
 
-**I'm getting errors trying to install the environment on a mac**
+There are some big advantages to using a common JupyterHub. Everyone has access to ephemeral computational resources, so you are not limited by your laptop CPU and RAM. We can also easily share large amounts of data. For example, everyone on the hub has read-write access to `s3://geohackweek2019`. 
+
+##### I'm getting errors trying to install the environment on a mac**
 
 There are sometimes incompatibilities with conda packages on linux versus osx. 
 
@@ -55,8 +57,10 @@ ResolvePackageNotFound:
   - libgcc-ng=7.3.0
 ```
 
-**Can I do this with Docker**
+##### Can I do this with Docker
+
 Instead of installing miniconda and creating a new conda environment, you can use a Docker image that has everything pre-installed. This is helpful for running the hub in a different Cloud-provider region. See https://cloud.docker.com/u/scottyhq/repository/docker/scottyhq/geohackweek2019
+
 `docker pull scottyhq/geohackweek2019:2019-08-01`
 
 
