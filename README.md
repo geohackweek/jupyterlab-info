@@ -43,7 +43,7 @@ jupyter lab
 
 ##### Why run on AWS? 
 
-There are some big advantages to using a common JupyterHub. Everyone has access to ephemeral computational resources, so you are not limited by your laptop CPU and RAM. We can also easily share large amounts of data. For example, everyone on the hub has read-write access to `s3://geohackweek2019`. 
+There are some big advantages to using a common JupyterHub. Everyone has access to ephemeral computational resources, so you are not limited by your laptop CPU and RAM. We can also easily share large amounts of data. For example, everyone on the hub has read-write access to `s3://geohackweek`. 
 
 ##### I'm getting errors trying to install the environment on a mac
 
