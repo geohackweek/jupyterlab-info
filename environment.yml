@@ -46,6 +46,7 @@ dependencies:
   - dask=2.2.0
   - dask-core=2.2.0
   - dask-kubernetes=0.9.1
+  - dask_labextension=0.3.3
   - datashader=0.7.0
   - datashape=0.5.4
   - dbus=1.13.6
