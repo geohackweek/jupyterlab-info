@@ -11,6 +11,7 @@ dependencies:
   - curl=7.65
   - dask=2.2
   - dask-kubernetes=0.9
+  - dask_labextension=0.3.3
   - datashader=0.7
   - distributed=2.2
   - fiona=1.8
